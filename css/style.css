@@ -13,3 +13,35 @@ body{
     align-items: center;
     flex-direction: column;
 }
+.sol div {
+    height: 20%;
+    width: 80%;
+    border: 1px solid red;
+}
+.orta {
+    height: 90%;
+    width: 60%;
+    background-color: yellow;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+.orta_ust , .orta_alt{
+    height: 15%;
+    width: 100%;
+    background-color: green;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.orta_ust div{
+    height: 100%;
+    width: 20%;
+    background-color: black;
+}
+ .orta_alt div{
+    height: 100%;
+    width: 20%;
+    background-color: black;
+ }
