@@ -30,7 +30,7 @@ body{
 .orta_ust , .orta_alt{
     height: 15%;
     width: 100%;
-    background-color: green;
+    background-color: yellow;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -44,4 +44,22 @@ body{
     height: 100%;
     width: 20%;
     background-color: black;
+ }
+ .orta_orta {
+    height: 15%;
+    width: 100%;
+    background-color: yellow;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+ }
+ .orta_orta div {
+    height: 100%;
+    width: 20%;
+    background-color: blueviolet;
+ }
+ .sag {
+    height: 90%;
+    width: 15%;
+    background-color: blue;
  }
